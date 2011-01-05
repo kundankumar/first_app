@@ -6,7 +6,7 @@ gem 'rails', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'mysql2'
-#gem 'mysql', '2.8.1'
+gem 'mysql', '2.8.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
@@ -20,7 +20,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Bundle the extra gems:
 # gem 'bj'
-# gem 'nokogiri'
+gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
@@ -39,4 +39,5 @@ end
 group :test do
   gem 'rspec', '2.3.0'
   gem 'webrat', '0.7.1'
+#  gem 'spork', '0.8.4'
 end
